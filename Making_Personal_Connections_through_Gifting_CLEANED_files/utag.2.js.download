@@ -1,0 +1,42 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+//tealium universal tag - utag.2 ut4.0.202401262041, Copyright 2024 Tealium.com Inc. All Rights Reserved.
+try{(function(id,loader){var u={};utag.o[loader].sender[id]=u;if(utag===undefined){utag={};}if(utag.ut===undefined){utag.ut={};}if(utag.ut.loader===undefined){u.loader=function(o){var a,b,c,l;a=document;if(o.type==="iframe"){b=a.createElement("iframe");b.setAttribute("height","1");b.setAttribute("width","1");b.setAttribute("style","display:none");b.setAttribute("src",o.src);}else if(o.type==="img"){utag.DB("Attach img: "+o.src);b=new Image();b.src=o.src;return;}else{b=a.createElement("script");b.language="javascript";b.type="text/javascript";b.async=1;b.charset="utf-8";b.src=o.src;}if(o.id){b.id=o.id;}if(typeof o.cb==="function"){if(b.addEventListener){b.addEventListener("load",function(){o.cb();},false);}else{b.onreadystatechange=function(){if(this.readyState==="complete"||this.readyState==="loaded"){this.onreadystatechange=null;o.cb();}};}}l=o.loc||"head";c=a.getElementsByTagName(l)[0];if(c){utag.DB("Attach to "+l+": "+o.src);if(l==="script"){c.parentNode.insertBefore(b,c);}else{c.appendChild(b);}}};}else{u.loader=utag.ut.loader;}
+u.ev={'view':1};u.initialized=false;u.map={"contently_site_id":"site_id"};u.extend=[function(a,b,c,d,e,f,g){if(1){d=b['dom.domain'];if(typeof d=='undefined')return;c=[{'harryanddavid':'fe77c1b41ba5e01474d4ab9ca2a84139'},{'1800flowers':'0c06d7717b1ffdf2ba2781c5721d85c2'},{'cheryls':'02abb2deec48f7881f4e3a762f980a5f'}];var m=false;for(e=0;e<c.length;e++){for(f in utag.loader.GV(c[e])){if(d.toString().indexOf(f)>-1){b['contently_site_id']=c[e][f];m=true};};if(m)break};}}];u.send=function(a,b){if(u.ev[a]||u.ev.all!==undefined){var c,d,e,f,i;u.data={};for(c=0;c<u.extend.length;c++){try{d=u.extend[c](a,b);if(d==false)return}catch(e){}};for(d in utag.loader.GV(u.map)){if(b[d]!==undefined&&b[d]!==""){e=u.map[d].split(",");for(f=0;f<e.length;f++){u.data[e[f]]=b[d];}}}
+function initInsights(){if(!window._contently){var _contently={siteId:u.data.site_id}
+_contently.insights=new ContentlyInsights({site_id:_contently.siteId});window._contently=_contently}}
+var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('async','async');s.setAttribute('src','//web.archive.org/web/20240519184844/https://assets.contently.com/insights/insights.js')
+s.onreadystatechange=function(){if(this.readyState=='complete'||this.readyState=='loaded'){initInsights();}};s.onload=initInsights;document.body.appendChild(s);}};utag.o[loader].loader.LOAD(id);})("2","1800flowers.blogs");}catch(error){utag.DB(error);}
+
+
+}
+/*
+     FILE ARCHIVED ON 18:48:44 May 19, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:56:13 Jun 24, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.543
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 42.225
+  LoadShardBlock: 405.572 (3)
+  PetaboxLoader3.datanode: 314.758 (4)
+  PetaboxLoader3.resolve: 445.2 (2)
+  load_resource: 387.978
+*/

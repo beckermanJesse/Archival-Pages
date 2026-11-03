@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+jQuery(document).ready(function boxFiltering($){$('#filter1, #filter2, #filter3, #filter4, #filter5, #filter6, #filter7, #filterClear').click(function(){if(this.id=='filter1'){$(".allFilters").not(".filterResults1").slideUp(200);$(".filterResults1").slideDown(200)}else if(this.id=='filter2'){$(".allFilters").not(".filterResults2").slideUp(200);$(".filterResults2").slideDown(200)}else if(this.id=='filter3'){$(".allFilters").not(".filterResults3").slideUp(200);$(".filterResults3").slideDown(200)}else if(this.id=='filter4'){$(".allFilters").not(".filterResults4").slideUp(200);$(".filterResults4").slideDown(200)}else if(this.id=='filter5'){$(".allFilters").not(".filterResults5").slideUp(200);$(".filterResults5").slideDown(200)}else if(this.id=='filter6'){$(".allFilters").not(".filterResults6").slideUp(200);$(".filterResults6").slideDown(200)}else if(this.id=='filter7'){$(".allFilters").not(".filterResults7").slideUp(200);$(".filterResults7").slideDown(200)}else if(this.id=='filterClear'){$(".allFilters").slideDown(200)}})})
+
+}
+/*
+     FILE ARCHIVED ON 07:04:43 Apr 22, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:55:44 Jun 24, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.974
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.014
+  esindex: 0.022
+  cdx.remote: 35.88
+  LoadShardBlock: 291.278 (3)
+  PetaboxLoader3.datanode: 191.444 (4)
+  PetaboxLoader3.resolve: 467.009 (2)
+  load_resource: 424.999
+*/
